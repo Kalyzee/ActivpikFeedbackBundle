@@ -1,0 +1,79 @@
+/* Barre et form commentaires */
+#comments_wrapper{
+    position:fixed;
+    top:200px;
+    left:-555px;
+    background:url('../images/comments_wrapper_bg.png') no-repeat top right;
+    width:600px;
+    height:395px;
+    z-index:100000;
+}
+
+#comments_wrapper #comments_wrapper_toggle{
+    display:block;
+    background:transparent;
+    height:197px;
+    margin-right:10px;
+    margin-top:10px;
+    width:35px;
+    float:right;
+}
+
+#comments_wrapper form{
+    position:relative;
+    color:white;
+    width:495px;
+    float:left;
+    font-size:12px;
+    padding:22px 20px;
+}
+
+#comments_wrapper form label{
+    font-size: 16px;
+    color: white;
+}
+
+#comments_wrapper .type_bloc{
+    float:left;
+    padding-top:15px;
+    width:240px;
+    height:35px;
+}
+
+#comments_wrapper .type_bloc input{
+    margin:0;
+    float:left;
+    width:30px;
+}
+
+#comments_wrapper form p{
+    margin-bottom:10px;
+    font-weight: bold;
+}
+#comments_wrapper form input,#comments_wrapper form select,#comments_wrapper form textarea{
+    width:495px;
+    font-size:11px;
+    margin-bottom:20px;
+    font-size:16px;
+    padding:10px;
+}
+
+#comments_wrapper form textarea{
+    height:100px;
+}
+
+#comments_wrapper form select{
+    width:515px;
+}
+
+#comments_wrapper #submit{
+    text-transform:uppercase;
+    font-weight:bold;
+    width:285px;
+    position:absolute;
+    font-size:15px;
+    right:0;
+    bottom:-25px;
+    padding:4px 5px;
+
+}

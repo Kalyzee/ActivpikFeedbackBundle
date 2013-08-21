@@ -1,0 +1,21 @@
+{
+    "name": "activpik/feedback-bundle",
+    "description": "Feedback bundle for Symfony 2",
+    "keywords": ["feedback","bundle"],
+    "type": "symfony-bundle",
+    "license": "Commercial",
+    "authors": [
+        {
+            "name": "Ludovic Bouguerra",
+            "email": "ludovic.bouguerra@kalyzee.com"
+        }
+    ],
+    "require": {
+        "symfony/framework-bundle": "2.*",
+        "twig/twig": "1.*"
+    },
+    "autoload": {
+        "psr-0": { "Activpik\\FeedbackBundle": "" }
+    },
+    "target-dir": "Activpik/FeedbackBundle"
+}

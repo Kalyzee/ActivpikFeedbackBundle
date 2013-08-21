@@ -1,0 +1,16 @@
+<script language="javascript">
+	var APPLICATION_BASE_URL_FEEDBACK="{{ path("feedback_send") }}";
+</script>
+<div id="comments_wrapper">
+	<form>
+		<div class="type_bloc">{{ form_widget(feedback_type.type[0]) }}{{ form_label(feedback_type.type[0]) }}</div>
+		<div class="type_bloc">{{ form_widget(feedback_type.type[1]) }}{{ form_label(feedback_type.type[1]) }}</div>		
+				
+		{{ form_widget(feedback_type.email) }}
+		{{ form_widget(feedback_type.subject) }}
+		{{ form_widget(feedback_type.comment) }}
+		{{ form_rest(feedback_type) }}
+    	<input id="comments_submit" type="submit" value="Envoyer votre commentaire">
+	</form>
+    <a href="" id="comments_wrapper_toggle"></a>
+</div>
